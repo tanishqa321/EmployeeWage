@@ -7,6 +7,7 @@ public class Employee {
     double dailySalary=0;
     public void attendance(boolean a){
         if (a){
+            attendance=a;
             System.out.println("Employee is Present");
         }
         else {
